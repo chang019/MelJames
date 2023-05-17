@@ -1,0 +1,114 @@
+/* for all */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fjalla One", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+.header,
+.footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 15vh;
+    border-bottom: 1px solid white;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.header > div {
+    height: 100%;
+    padding: 0;
+}
+
+.header .logo {
+    text-align: center;
+    line-height: 15vh;
+}
+
+.header .logo img {
+    max-height: 90%;
+}
+
+.header .nav {
+    text-align: center;
+}
+
+.header .nav .nav-item {
+    line-height: 14vh;
+}
+
+.header .nav .nav-item a {
+    color: white;
+    font-size: 20px;
+    padding: 5vh 2vw;
+    border-bottom: 3px solid black;
+    transition: all .3s;
+}
+
+.header .nav .nav-item a:hover {
+    border-bottom: 3px solid #333;
+}
+
+.header .social,
+.footer .social {
+    display: flex;
+    justify-content: center;
+}
+
+.header .social {
+    /* line-height: 15vh; */
+    align-items: center;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 992px) {
+    .header .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+    }
+}
+
+.header .social .social-item a,
+.footer .social .social-item a {
+    color: white;
+    padding: 16px;
+    transition: all .3s;
+}
+
+@media screen and (min-width: 992px) {
+    .header .social .social-item a:hover,
+    .footer .social .social-item a:hover {
+        background-color: #333;
+    }
+}
+
+/* footer */
+.footer {
+    height: 20vh;
+    background-color: #000;
+    text-align: center;
+}
+
+.footer .logo {
+    height: 50%;
+    margin-top: 20px;
+}
+
+.footer .logo img {
+    height: 100%;
+}
