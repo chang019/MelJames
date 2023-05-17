@@ -1,0 +1,44 @@
+.showreel {
+    position: relative;
+}
+
+.showreel .brief {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 32px;
+    color: white;
+    z-index: 1;
+}
+
+.showreel .brief #discover-btn {
+    font-size: 20px;
+    padding: 14px 28px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.showreel video {
+    width: 100%;
+}
+
+.intro {
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro h3 {
+    font-size: 60px;
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 30px 100px;
+}
+

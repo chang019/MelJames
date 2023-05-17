@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- VS Code default -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- customized css -->
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- font family: Fjalla One -->
+    <link href='https://fonts.googleapis.com/css?family=Fjalla One' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/252a2a560c.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <!-- page title -->
+    <title>MelJames - Contact</title>
+</head>
+<body>
+    <!-- header includes 3 parts: brand image, nav bar, social media -->
+    <div class="header">
+        <div class="brand-image">
+            <a href="#"><img src="./images/MelJames.jfif" alt="brand-pic"></a>
+        </div>
+
+        <div class="nav">
+            <ul class="nav-list">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="social">
+            <ul class="social-list">
+                <li>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- contact form -->
+    <div class="contact">
+        <h3>CONTACT US</h3>
+
+        <form class="contact-form" method="post" action="www.google.com">
+            <div class="name">
+                <div class="first-name">
+                    <label for="first-name">First name *</label>
+                    <br>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                
+                <div class="last-name">
+                    <label for="last-name">Last name *</label>
+                    <br>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+            </div>
+
+            <div class="email">
+                <label for="email">Email *</label>
+                <br>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="message">
+                <label for="message">Message *</label>
+                <br>
+                <textarea name="message" id="message" cols="50" rows="5" required></textarea>
+            </div>
+
+            <div class="submit">
+                <input type="submit" id="submit-btn">
+            </div>
+            
+        </form>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="brand-image">
+            <a href="#"><img src="./images/MelJames.jfif" alt="brand-pic"></a>
+        </div>
+
+        <div class="social">
+            <ul class="social-list">
+                <li>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

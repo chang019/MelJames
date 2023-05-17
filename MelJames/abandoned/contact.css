@@ -1,0 +1,41 @@
+.contact {
+  min-height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact h3 {
+  margin: 30px;
+  font-size: 60px;
+}
+
+.contact .contact-form > div {
+  margin: 0 0 20px 0;
+}
+
+.contact .contact-form label {
+    margin-bottom: 5px;
+}
+
+.contact .contact-form .name input,
+.contact .contact-form .email input {
+    width: 100%;
+}
+
+.contact .contact-form .first-name,
+.contact .contact-form .last-name {
+  display: inline-block;
+  width: 49.4%;
+}
+
+.contact .contact-form #submit-btn {
+  width: 200px;
+  font-size: 20px;
+  padding: 14px 28px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
